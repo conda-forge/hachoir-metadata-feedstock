@@ -11,6 +11,18 @@ Summary: Program to extract metadata using Hachoir library
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/hachoir-metadata-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/hachoir-metadata-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/hachoir-metadata-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/hachoir-metadata-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/hachoir-metadata-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/hachoir-metadata-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hachoir-metadata/badges/version.svg)](https://anaconda.org/conda-forge/hachoir-metadata)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hachoir-metadata/badges/downloads.svg)](https://anaconda.org/conda-forge/hachoir-metadata)
+
 Installing hachoir-metadata
 ===========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `hachoir-metadata` available on yo
 ```
 conda search hachoir-metadata --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/hachoir-metadata-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/hachoir-metadata-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/hachoir-metadata-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/hachoir-metadata-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/hachoir-metadata-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/hachoir-metadata-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hachoir-metadata/badges/version.svg)](https://anaconda.org/conda-forge/hachoir-metadata)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hachoir-metadata/badges/downloads.svg)](https://anaconda.org/conda-forge/hachoir-metadata)
 
 
 Updating hachoir-metadata-feedstock
