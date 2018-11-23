@@ -1,7 +1,5 @@
-{%set name = "hachoir-metadata" %}
-{%set version = "1.3.3" %}
-{%set hash_type = "sha256" %}
-{%set hash_val = "ec403f13a44e2cf3d26001f8f440cdc4329a316a4c971035944bfadacc90eb3c" %}
+{% set name = "hachoir-metadata" %}
+{% set version = "1.3.3" %}
 
 package:
   name: {{ name }}
@@ -10,11 +8,11 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  {{ hash_type }}: {{ hash_val }}
+  sha256: ec403f13a44e2cf3d26001f8f440cdc4329a316a4c971035944bfadacc90eb3c
 
 build:
   skip: True  # [py3k]
-  number: 0
+  number: 1000
   script: python setup.py install
 
 requirements:
